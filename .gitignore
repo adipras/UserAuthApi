@@ -1,0 +1,71 @@
+# .NET Core
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Build artifacts
+*.exe
+*.dll
+*.pdb
+*.log
+*.iso
+*.cache
+*.ilk
+*.aps
+*.ncb
+*.opendb
+*.obj
+*.iobj
+*.ipdb
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+
+# Entity Framework Migrations
+Migrations/
+
+# ASP.NET Secrets
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+secrets.json
+
+# Logs
+logs/
+*.log
+
+# User-specific files
+*.rsuser
+*.sln.ide
+
+# Rider
+.idea/
+
+# Resharper
+*.DotSettings.user
+
+# Coverage & Reports
+coverage/
+*.coverage
+*.coveragexml
+*.testlog
+TestResults/
+
+# Docker
+**/docker-compose.override.yml
+
+# Temporary files
+**/node_modules
+**/dist
